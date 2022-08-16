@@ -1,0 +1,65 @@
+header {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  margin: 2% 7% 0% 7%;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+}
+
+.navlink {
+  padding: 0;
+  margin: 5px;
+  justify-content: flex-start;
+}
+
+header a {
+  color: #44475b;
+  text-decoration: none;
+}
+
+.App-logo {
+  width: 148px;
+  aspect-ratio: auto 148 / 40;
+  height: 40px;
+  cursor: pointer;
+  float: left;
+}
+
+.header a:hover,
+.header a:active {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}
+
+.login-logout-action {
+  background-color: #00c798;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.orderIcon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}

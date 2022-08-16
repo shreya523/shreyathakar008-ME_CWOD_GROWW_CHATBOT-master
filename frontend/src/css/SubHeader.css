@@ -1,0 +1,38 @@
+.subHeader {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  list-style: none;
+  padding-left: 0%;
+  margin-bottom: 0%;
+}
+
+li {
+  margin-right: 35px;
+}
+nav {
+  margin: 0% 7% 0% 7%;
+}
+.navItem {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  padding-right: 45px;
+  height: 54px;
+  cursor: pointer;
+  color: #44475b;
+  -webkit-font-smoothing: auto;
+}
+
+.navItem:hover,
+.navItem:focus,
+.navItem:active{
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  padding-right: 45px;
+  height: 54px;
+  cursor: pointer;
+  color: #00d09c;
+  -webkit-font-smoothing: auto;
+}

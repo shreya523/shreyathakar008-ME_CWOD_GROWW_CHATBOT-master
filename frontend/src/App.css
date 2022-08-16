@@ -1,0 +1,97 @@
+:root {
+  --secondaryClr150: #1e2232;
+  --constantGrowwYellow150: #d2ab66;
+  --constantText: #44475b;
+  --constantText120: #191c27;
+  --constantSubText10: #636464;
+  --constantTransparent: transparent;
+  --constantHalfTransparent: rgba(0, 0, 0, 0.5);
+  --constantSecondaryClr180: #2a2a2a;
+  --primaryClr: #00d09c;
+  --primaryClr60: #66e3c4;
+  --primaryClr10: #e5faf5;
+  --secondaryClr: #5367ff;
+  --secondaryClr130: #98a4ff;
+  --secondaryClr60: #98a4ff;
+  --secondaryClr30: #eef0ff;
+  --growwYellow: #ffb61b;
+  --growwYellow10: #fff5e0;
+  --growwYellow05: rgba(255, 182, 27, 0.05);
+  --growwRed: #eb5b3c;
+  --growwRed10: #fae9e5;
+  --growwRed05: rgba(235, 91, 60, 0.05);
+  --border: #ecedef;
+  --iconLight: #b0b2ba;
+  --iconMedium: #dddee1;
+  --iconStrong: #ecedef;
+  --boxShadow: rgba(0, 0, 0, 0.1);
+  --text130: #44475b;
+  --text: #44475b;
+  --subText: #7c7e8c;
+  --subText50: #b0b2ba;
+  --subText70: #ecedef;
+  --primaryBg: #fff;
+  --secondaryBg: #fff;
+  --tertiaryBg: #ecedef;
+  --quaternaryBg: #f6f6f7;
+  --preloaderBg: #f6f6f7;
+  --rippleNormal: rgba(0, 0, 0, 0.1);
+  --constantWhite: #fff;
+  --constantSecondaryClr10: #f6f6f7;
+  --cardBackground: #fff;
+}
+
+body {
+  background: var(--primaryBg) !important;
+  color: var(--text) !important;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: Roboto, system-ui;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.site-header__wrapper {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav {
+  float: left;
+}
+
+/* .nav a {
+  padding: 1rem;
+  color: var(--text);
+  text-decoration: none;
+} */
+
+/* a:focus,
+a:hover,
+a:active {
+  color: var(--primaryClr);
+} */
+
+.login {
+  float: right;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hr-line {
+  margin-top: 0%;
+}

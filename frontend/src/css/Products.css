@@ -1,0 +1,56 @@
+.product-image {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  padding: 10px;
+}
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.product-details {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text);
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: #00d09c;
+}
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+}
+
+.product-name {
+  margin-left: 5px;
+}
+.product-price {
+  font-weight: 500;
+  color: var(--text);
+  margin-right: 7px;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+  font-size: 1rem;
+}
+
+.mutual-fund-price-scheme {
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--subText);
+}
